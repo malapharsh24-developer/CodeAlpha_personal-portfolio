@@ -1,0 +1,44 @@
+/* ===========================================     MOBILE RESPONSIVE DESIGN     ====================================== */
+
+/* For small devices (max-width: 767px) */
+@media (max-width: 767px) {
+    *{
+        overflow-x: hidden;
+    }
+    html {
+            scroll-padding-top: 100px;
+    }
+    .container{
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 0.3rem auto;
+    }
+    section {
+        min-width: 100%;
+    }
+/* ===========================================     HEADER SECTION STYLING     ======================================*/
+    header {
+        max-width: 100%;
+        max-height: 20vh;
+    }
+    .navbar{
+        max-width: 100%;
+    }
+    header nav{
+        flex-direction: column;
+        background-color: red;
+        position: absolute;
+        height: 10rem;
+        width: 5rem;
+        top : 0;
+        right : 0;
+        z-index: 10;
+    }
+/* ===========================================     HOME SECTION STYLING     ======================================*/
+    .home {
+        flex-direction: column-reverse;
+    }
+    .home >.left, .home>.right{
+        width: 100%;
+    }
+}
